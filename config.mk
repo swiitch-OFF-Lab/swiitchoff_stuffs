@@ -7,3 +7,7 @@ PRODUCT_SOONG_NAMESPACES += \
 # Device-specific settings
 PRODUCT_PACKAGES += \
     XiaomiParts
+
+# Remove unwanted packages
+PRODUCT_PACKAGES += \
+    RemovePackages
