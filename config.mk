@@ -1,6 +1,8 @@
+SS_PATH := swiitchoff/stuffs
+
 # Soong Namespace
 PRODUCT_SOONG_NAMESPACES += \
-    swiitchoff/stuffs
+    $(SS_PATH)
 
 # Device-specific settings
 PRODUCT_PACKAGES += \
